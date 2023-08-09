@@ -1,0 +1,15 @@
+total 52
+drwxrwxr-x 2 vagrant vagrant 4096 Aug  8 14:09 .
+drwxrwxr-x 6 vagrant vagrant 4096 Aug  8 10:57 ..
+-rwxrw-r-- 1 vagrant vagrant   30 Aug  8 05:30 0-hello_world
+-rwxrw-r-- 1 vagrant vagrant   13 Aug  8 10:54 1-confused_smiley
+-rwxrw-r-- 1 vagrant vagrant   28 Aug  8 08:55 2-hellofile
+-rwxrw-r-- 1 vagrant vagrant   39 Aug  8 08:58 3-twofiles
+-rwxrw-r-- 1 vagrant vagrant   29 Aug  8 09:02 4-lastlines
+-rwxrw-r-- 1 vagrant vagrant   29 Aug  8 09:05 5-firstlines
+-rwxrw-r-- 1 vagrant vagrant   26 Aug  8 09:21 6-third_line
+-rwxrw-r-- 1 vagrant vagrant   36 Aug  8 14:06 8-cwd_state
+-rw-rw-r-- 1 vagrant vagrant   43 Aug  8 05:25 README.md
+-rw-rw-r-- 1 vagrant vagrant  801 Aug  8 13:51 iacta
+-rw-rw-r-- 1 vagrant vagrant    0 Aug  8 14:10 ls_cwd_content
+-rw-rw-r-- 1 vagrant vagrant    4 Aug  8 11:40 messi
