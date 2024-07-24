@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# Bash script that displays Best School 10 times.
+# but for the 9th iteration, displays Best School and then Hi on a new line.
+# You must use the while loop (for and until are forbidden)
+# You must use if statement.
+number=0
+while [ "$number" -lt 10 ]; do
+	if [ "$number" == 8 ]; then
+		echo "Best School"
+		echo "Hi"
+	else
+		echo "Best School"
+	fi
+	number=$((number + 1))
+done
+
