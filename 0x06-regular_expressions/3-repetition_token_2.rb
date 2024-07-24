@@ -1,2 +1,4 @@
 #!/usr/bin/env ruby
-puts ARGV[0].scan(/hbt.*n/).join
+# Matches a repeating token
+
+puts ARGV[0].scan(/hbt+n/).join
