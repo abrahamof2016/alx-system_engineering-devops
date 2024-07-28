@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Bash script that displays Best School 10 times.
+# You must use the while loop (for and until are forbidden)
+number=0
+while [ "$number" -lt 10 ]; do
+	echo "Best School"
+	number=$((number + 1))
+done
+
