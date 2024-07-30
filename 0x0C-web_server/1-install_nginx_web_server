@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# Installing and configuring nginx on web-01 server
+# update default webpage to print "Holberton School"
+apt-get -y update
+apt-get install -y nginx
+ufw -y enable
+ufw allow 'Nginx HTTP'
+ufw allow openSSH
+sudo su
+echo "Hello World!" > /var/www/html/index.nginx-debian.html
