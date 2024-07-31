@@ -8,4 +8,3 @@ ufw allow 'Nginx HTTP'
 ufw allow openSSH
 sudo su
 echo "Hello World!" > /var/www/html/index.nginx-debian.html
-service  nginx start
