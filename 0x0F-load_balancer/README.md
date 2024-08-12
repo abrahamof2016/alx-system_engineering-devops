@@ -8,6 +8,7 @@ I will be working with two new servers:
 
 * gc-[STUDENT_ID]-web-02-XXXXXXXXXX
 * gc-[STUDENT_ID]-lb-01-XXXXXXXXXX
+  
 The primary goal is to configure these servers to act as a web server and load balancer respectively, using Bash scriptsfor automation.
 
 ### Project Objectives
