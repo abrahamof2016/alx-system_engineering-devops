@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# Configure web-02 to be identical to web-01.
+# Configure Nginx so that its HTTP response contains a custom header.
+
+apt-get update
+apt-get install -y nginx
+
+# web-02 return string "Hello World!" when querying it's root.
+
+echo "Hello World!" > /var/www/html/index.html
+echo "Ceci n'est pas une page" > /var/www/html/404.html
+
+sed -i "/listen 80 default_server;/a rewrite ^/redirect_me https://wwww.youtube.com/watch?v=QH2-TGUlwu4 permanent;" /etc/nginx/sites-available/default
+sed -i "/listen 80 default_server;/a error_page 404 /404.html;" /etc/nginx/sites-available/default
+sed -i '14a \\tadd_header X-Served-By '"${HOSTNAME}"';' /etc/nginx/nginx.conf
+service nginx restart
+ 
