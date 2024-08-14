@@ -12,7 +12,8 @@ file { '/var/www/html/index.html':
 }
 
 exec { 'append_redirect_me':
-  command => "/usr/bin/sed -i '/^}$/i \\\n\tlocation \\/redirect_me {return 301 https:\\/\\/www.youtube.com\\/watch?v=QH2-TGUlwu4;}' /etc/nginx/sites-available/default",
+  command => "/usr/bin/sed -i '/^}$/i \\\n\tlocation \\/redirect_me {return 301 https:\\/\\/www.youtube.com\\/watch?v=QH2-TGUlwu4;}' /
+/etc/nginx/sites-available/default",
 }
 
 service { 'nginx':
