@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Make Ubuntu container’s Nginx installation to listen on port 80
+
+service nginx restart
