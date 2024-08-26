@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# Bash Script
+
+i=0
+while (( i <= 19 ))
+do
+	((i++))
+	case $i in
+		"4") echo -e "$i\nbad luck from china";;
+		"9") echo -e "$i\nbad luck from Japan";;
+		"17") echo -e "$i\nbad luck from Italy";;
+		*) echo $i;;
+	esac
+done
